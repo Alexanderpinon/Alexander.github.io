@@ -156,17 +156,18 @@ footer {
 
 /***** VIDEO STYLING *****/
 /* Formatting for background video*/
-#Typing_video {
+#video2 {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     z-index: -1;
+    background-size: cover;
 }
 
 /* Screens that are 576px and smaller will not display the background video */
 @media screen and (max-width: 576px) {
-    #Typing_video {
+    #video2 {
         display: none;
     }
 }
