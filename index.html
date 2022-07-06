@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width"/>
         <title>Alexander Pinon</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+        <link rel="stylesheet" type="text/css" href="./portfolio.css">
     </head>
 
     <!--Body-->
@@ -17,7 +17,6 @@
             <a href="#Slideshow">Slideshow</a>
             <a href="#About">About</a>
             <a href="#Github">GitHub</a>
-            <a href="#Contact">Contact</a>
             <a onclick="openForm()" ondblclick="closeForm()"
             class="contact">Contact</a>
         </div>
@@ -63,31 +62,31 @@
                 <!--slide 2 of 6-->
                 <div class="mySlides fade">
                     <img class="Slideshow_Images"
-                    src="imgs/images/download.png"  alt="HTML, CSS, and JS logos">
+                    src="download.png"  alt="HTML, CSS, and JS logos">
                     <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
                 </div>
                 <!--slide 3 of 6-->
                 <div class="mySlides fade">
                     <img class="Slideshow_Images"
-                    src="imgs/images/python-logo-master-v3-TM.png"  alt="Python logo">
+                    src="python-logo-master-v3-TM.png"  alt="Python logo">
                     <div class="text">the popular programming language Python,</div>
                 </div>
                 <!--slide 4 of 6-->
                 <div class="mySlides fade">
                     <img class="Slideshow_Images"
-                    src="imgs/images/download (1).png"   alt="C# logo">
+                    src="download (1).png"   alt="C# logo">
                     <div class="text">C#, .NET Framwork, ASP.NET, MVC,</div>
                 </div>
                 <!--slide 5 of 6-->
                 <div class="mySlides fade">
                     <img class="Slideshow_Images"
-                    src="imgs/images/download (2).png"  alt="SQL logo">
+                    src="download (2).png"  alt="SQL logo">
                     <div class="text">Back end development, databases and SQL.</div>
                 </div>
                 <!--slide 6 of 6-->
                 <div class="mySlides fade">
                     <img class="Slideshow_Images"
-                    src="imgs/images/download (3).png"  alt="">
+                    src="download (3).png"  alt="">
                     <div class="text"><a class="white-text contact"
                         onclick="openForm()">Contact me now!</a></div>
                     </div>
@@ -146,19 +145,11 @@
         </div>
 
         <!--Contact section-->
-        <div class="Row" id="Contact">
-            <div class="Row" id="Contact">
+        <div id="Contact">
                 <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
-                <div class="form-popup" id="myForm"></div>
-            <!--Contact image, left column-->
-            <div class="Column_2 Column_tall">
-                <img src="imgs/images/computer-code.jpg" alt="Contact_Image">
-            </div>
-            <!--Contact form, right column-->
-            <div class="Column_1 Column_tall">
-                <h1>Contact</h1>
-                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <div class="form-popup" id="myForm">
                 <form action="https://formspree.io/f/mayvzpza" method="POST"> <!--Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute-->
+                    <h1>Contact</h1>
                     <label for= "Name"><b>Name</b></label>
                     <input type="text" placeholder="Please enter your name here" name="name" required>
                  <label for="Phone"><b>Phone</b></label>
@@ -173,13 +164,13 @@
             </div>
         </div>
 
-        <!--Footer section-->
+        <!--Footer section-->51
         <footer>
             <p>
                 <p class="center"> &copy;Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
                 <br>
             </p>
         </footer>
-        <script src="JS/portfoilo.js"></script>
+        <script src="portfoilo.js"></script>
     </body>
 </html>
