@@ -235,7 +235,7 @@ footer {
 
 /***** CONTACT FORM STYLING *****/
 /* input[type=text] targets all text input sections of the contact form */
-input[type=text] {
+input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px soild #ccc;
@@ -279,7 +279,8 @@ input[type=submit]:hover {
 form {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 20px;
     font-family: 'Trebuchet MS', Optima;
+
 }
 /***** END OF CONTACT FORM STYLING *****/
